@@ -359,7 +359,7 @@
   #define CORE_INT21_PIN	A7
 
 // Arduino Nano RP2040 Connect
-#elif defined(ARDUINO_NANO_RP2040_CONNECT)
+#elif defined(ARDUINO_NANO_RP2040_CONNECT) || defined(ARDUINO_ARCH_RP2040)
   #define CORE_NUM_INTERRUPT	20
   #define CORE_INT0_PIN		0
   #define CORE_INT1_PIN		1
